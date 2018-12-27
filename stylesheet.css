@@ -158,6 +158,18 @@ button {
 button:hover {
     background-color: green;
 }
+#menu {
+      position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/menu.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
 
 #roedeprik {
     position: absolute;
@@ -171,6 +183,18 @@ button:hover {
 
 }
 #roedeprik2 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(grafik/roedeprik.png);
+    background-size: 100%;
+    left: 10vw;
+    top: 35vw;
+    cursor: pointer;
+
+}
+
+#roedeprik3 {
     position: absolute;
     width: 10vw;
     height: 10vw;
