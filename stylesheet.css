@@ -1,0 +1,1010 @@
+body {
+    background-color: white;
+    font-family: "Helvetica";
+    shape-inside: inherit;
+    background-attachment: fixed;
+    background-position: center;
+
+
+
+
+}
+
+* {
+    box-sizing:content-box;
+}
+
+#game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(side1.html);
+    background-size: 100%;
+
+}
+
+
+
+.sectionwrapper {
+    display: flex;
+
+
+}
+
+.sectionwrapper {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: row wrap;
+
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+
+.column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    border: 1px solid white;
+    justify-content: space-between;
+    padding: 26px;
+    background-color: white;
+
+
+}
+
+.txt {
+    flex-grow: 1;
+    flex-basis: 300px;
+    border: 1px solid #817878;
+    justify-content: space-between;
+    padding: 1px #817878;
+
+    background-color: #817878;
+
+
+}
+
+
+
+.column_wide {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+
+    flex-basis: 400px;
+    max-height: inherit;
+    border: 15px solid white;
+    align-items: center;
+
+}
+
+.top {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+
+    flex-basis: 500px;
+    max-height: inherit;
+    border: 15px solid white;
+    align-items: center;
+
+}
+
+.bottom {
+    align-items: center;
+    border: 15px solid white;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+
+    flex-basis: 500px;
+    max-height: inherit;
+
+
+
+}
+
+
+
+.image {
+    align-self: flex-end;
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 100px;
+}
+
+.column_narrow {
+    border: 15px solid white;
+    flex-basis: 100px;
+    flex-grow: 1;
+    max-height: inherit;
+
+}
+
+.content {
+    align-self: flex-end;
+    flex-basis: 400px;
+    flex-grow: 1;
+
+
+}
+
+
+
+
+button {
+    background-color: #bb0a2c;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    align-content: flex-end;
+}
+
+
+button:hover {
+    background-color: green;
+}
+
+#roedeprik {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(grafik/roedeprik.png);
+    background-size: 100%;
+    left: 43vw;
+    top: 10vw;
+    cursor: pointer;
+
+}
+#roedeprik2 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(grafik/roedeprik.png);
+    background-size: 100%;
+    left: 10vw;
+    top: 35vw;
+    cursor: pointer;
+
+}
+
+a:link{
+    color:white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+
+
+h1 {
+    font-family: 'helvetica';
+    font-style: bold;
+    font-size: 36px;
+
+
+
+}
+
+
+
+h2 {
+    font-style: normal;
+    font-size: 36px;
+    font-family: 'helvetica';
+
+}
+
+
+
+h3 {
+    font-style: normal;
+    font-size: 72px;
+    font-family: 'helvetica';
+    color: #807b7b;
+
+
+
+}
+
+h4 {
+    font-style: normal;
+    font-size: 72px;
+    font-family: 'helvetica';
+    color: white;
+}
+
+h5 {
+    color: #5d0404;
+}
+
+
+header nav a:link {
+    color: black;
+}
+
+/* visited link */
+header nav a:visited {
+    color: #f2e4d7;
+}
+
+/* mouse over link */
+header nav a:hover {
+    color: #ff3e2c;
+}
+
+/* selected link */
+header nav a:active {
+    color: red;
+}
+
+
+header {
+
+    position: fixed;
+    width: 100%;
+
+
+}
+
+
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin: 0.3rem 2rem;
+    text-align: right;
+}
+
+header nav a {
+    font-size: 1.6rem;
+    margin: 0.1rem;
+    padding: 0.01rem;
+    font-family: 'helvetica';
+
+}
+
+/*@media only screen and (min-width:1024px) {
+    #eksempler.column {
+        flex-basis: auto;
+       }
+    header{background-image: linear-gradient(rgba(38, 10, 2, 0.49), rgba(255, 255, 0, 0));
+
+    }
+    header nav {
+        flex-direction: row;
+
+
+    }
+
+
+    header nav a {
+        font-size: 1rem;
+        border-right: 0.1rem solid #f2e4d7;
+        font-size: 1.5rem;
+        margin: 0.25rem;
+        padding: 0 0.4rem 0 0;
+        padding-right: 0.4rem;
+        font-family: 'hindbold';
+    }
+
+    header nav a:last-child {
+        border-right: none;
+    }
+
+}*/
+
+
+#skilt1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt1.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt1 {
+    animation-name: skilt_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt_move {
+    0% {
+        left: -120vw;
+        bottom: 15vw;
+
+    }
+
+    20% {
+        left: -100vw;
+        bottom: 20vw;
+        transform: rotate(-24deg);
+    }
+
+    40% {
+        left: -70vw;
+        bottom: 10vw;
+        transform: rotate(-12deg);
+    }
+
+    60% {
+        left: -30vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+#skilt2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt2.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt2 {
+    animation-name: skilt2_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt2_move {
+    0% {
+        left: -120vw;
+        top: 35vw;
+
+    }
+
+    20% {
+        left: -100vw;
+        bottom: 20vw;
+        transform: rotate(14deg);
+    }
+
+    40% {
+        left: -70vw;
+        bottom: 10vw;
+        transform: rotate(12deg);
+    }
+
+    60% {
+        left: -30vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+
+#skilt3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt3.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt3 {
+    animation-name: skilt3_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt3_move {
+    0% {
+        left: 10vw;
+        top: 65vw;
+
+    }
+
+    20% {
+        left: 20vw;
+        bottom: 55vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 10vw;
+        bottom: 40vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 5vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+#skilt4 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt4.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt4 {
+    animation-name: skilt4_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt4_move {
+    0% {
+        left: 10vw;
+        top: 65vw;
+
+    }
+
+    20% {
+        left: 20vw;
+        bottom: 55vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 10vw;
+        bottom: 40vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 5vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+#skilt5 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt5.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt5 {
+    animation-name: skilt5_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt5_move {
+    0% {
+        left: 10vw;
+        top: 65vw;
+
+    }
+
+    20% {
+        left: 20vw;
+        bottom: 55vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 10vw;
+        bottom: 40vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 5vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+#skilt6 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt6.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt6 {
+    animation-name: skilt6_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt6_move {
+    0% {
+        left: 10vw;
+        top: 65vw;
+
+    }
+
+    20% {
+        left: 20vw;
+        bottom: 55vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 10vw;
+        bottom: 40vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 5vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+#skilt7 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt7.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt7 {
+    animation-name: skilt7_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt7_move {
+    0% {
+        left: 10vw;
+        top: 65vw;
+
+    }
+
+    20% {
+        left: 20vw;
+        bottom: 55vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 10vw;
+        bottom: 40vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 5vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+#skilt8 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt8.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt8 {
+    animation-name: skilt8_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt8_move {
+    0% {
+        left: 10vw;
+        top: 65vw;
+
+    }
+
+    20% {
+        left: 20vw;
+        bottom: 55vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 10vw;
+        bottom: 40vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 5vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+
+    }
+
+}
+
+#skilt9 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt9.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt9 {
+    animation-name: skilt9_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt9_move {
+    0% {
+        left: 10vw;
+        top: 65vw;
+
+    }
+
+    20% {
+        left: 20vw;
+        bottom: 55vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 10vw;
+        bottom: 40vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 5vw;
+        bottom: 0vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+        background-image: url(grafik/skilt.png);
+
+    }
+
+}
+
+#skilt10 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt10.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt10 {
+    animation-name: skilt10_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt10_move {
+    0% {
+        left: 50vw;
+        top: -10vw;
+
+    }
+
+    20% {
+        left: 40vw;
+        bottom: -5vw;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 35vw;
+        bottom: 0vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 20vw;
+        bottom: 10vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+        background-image: url(grafik/skilt.png);
+
+    }
+
+}
+
+#skilt11 {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt11.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+
+}
+
+#skilt11 {
+    animation-name: skilt11_move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes skilt11_move {
+    0% {
+        left:40vw;
+        top: 95vw;
+
+    }
+
+    20% {
+        left: 30vw;
+        bottom: 80;
+        transform: rotate(10deg);
+    }
+
+    40% {
+        left: 22vw;
+        bottom: 50vw;
+        transform: rotate(5deg);
+    }
+
+    60% {
+        left: 15vw;
+        bottom: 30vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        left: 0vw;
+        bottom: 0vw;
+        background-image: url(grafik/skilt.png);
+
+    }
+
+}
+
+#skilt {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-image: url(grafik/skilt.png);
+    background-size: 100%;
+    left: 0vw;
+    top: 0vw;
+    cursor: pointer;
+
+}
+
+
+#menu {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    left: 0;
+    top: 0;
+    background-image: url(grafik/menu.png);
+    cursor: pointer;
+    background-size: 100%;
+    z-index: ;
+
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+
+}
+
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(1.01);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1.005);
+    }
+
+    80% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+img {
+    width: 100%;
+}
