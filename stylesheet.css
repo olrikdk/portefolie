@@ -144,21 +144,23 @@ body {
 
 
 button {
-    background-color: #bb0a2c;
+    background-color: #817878;
     border: none;
-    color: white;
+    color: black;
     padding: 8px 16px;
     text-align: center;
-    font-size: 24px;
+    font-size: 72px;
+    left: 110vw;
+    top: 5vw;
     cursor: pointer;
-    align-content: flex-end;
+
 }
 
 
 button:hover {
     background-color: green;
 }
-#menu {
+/*#menu {
       position: absolute;
     width: 100vw;
     height: 100vw;
@@ -168,6 +170,29 @@ button:hover {
     top: 0vw;
     cursor: pointer;
 
+
+}*/
+#redsignhvid{
+     position: absolute;
+    width: 25vw;
+    height: 6vw;
+    background-image: url(grafik/redesign.png);
+    background-size: 100%;
+    left: 52vw;
+    top: 2vw;
+    cursor: pointer;
+
+}
+
+#webgraa{
+     position: absolute;
+    width: 25vw;
+    height: 6vw;
+    background-image: url(grafik/webgr.png);
+    background-size: 100%;
+    left: 32vw;
+    top: 2vw;
+    cursor: pointer;
 
 }
 
@@ -189,7 +214,7 @@ button:hover {
     background-image: url(grafik/roedeprik.png);
     background-size: 100%;
     left: 10vw;
-    top: 35vw;
+    top: 5vw;
     cursor: pointer;
 
 }
@@ -201,7 +226,7 @@ button:hover {
     background-image: url(grafik/roedeprik.png);
     background-size: 100%;
     left: 10vw;
-    top: 35vw;
+    top: 5vw;
     cursor: pointer;
 
 }
@@ -347,14 +372,15 @@ header nav a {
 }*/
 
 
+
 #skilt1 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt1.png);
     background-size: 100%;
     left: 0vw;
-    top: 0vw;
+    top: 0.65vw;
     cursor: pointer;
 
 
@@ -397,6 +423,7 @@ header nav a {
     100% {
         left: 0vw;
         bottom: 0vw;
+        background-image: url(grafik/skilt.png);
 
     }
 
@@ -405,7 +432,7 @@ header nav a {
 #skilt2 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt2.png);
     background-size: 100%;
     left: 0vw;
@@ -461,11 +488,11 @@ header nav a {
 #skilt3 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt3.png);
     background-size: 100%;
     left: 0vw;
-    top: 0vw;
+    top: 1vw;
     cursor: pointer;
 
 
@@ -516,7 +543,7 @@ header nav a {
 #skilt4 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt4.png);
     background-size: 100%;
     left: 0vw;
@@ -571,7 +598,7 @@ header nav a {
 #skilt5 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt5.png);
     background-size: 100%;
     left: 0vw;
@@ -626,7 +653,7 @@ header nav a {
 #skilt6 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt6.png);
     background-size: 100%;
     left: 0vw;
@@ -681,7 +708,7 @@ header nav a {
 #skilt7 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt7.png);
     background-size: 100%;
     left: 0vw;
@@ -736,7 +763,7 @@ header nav a {
 #skilt8 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt8.png);
     background-size: 100%;
     left: 0vw;
@@ -791,7 +818,7 @@ header nav a {
 #skilt9 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt9.png);
     background-size: 100%;
     left: 0vw;
@@ -847,7 +874,7 @@ header nav a {
 #skilt10 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt10.png);
     background-size: 100%;
     left: 0vw;
@@ -903,7 +930,7 @@ header nav a {
 #skilt11 {
     position: absolute;
     width: 100vw;
-    height: 100vw;
+    height: 56vw;
     background-image: url(grafik/skilt11.png);
     background-size: 100%;
     left: 0vw;
@@ -971,9 +998,9 @@ header nav a {
 
 #menu {
     position: absolute;
-    width: 100vw;
-    height: 100vw;
-    left: 0;
+    width: 12vw;
+    height: 8vw;
+    left: 84vw;
     top: 0;
     background-image: url(grafik/menu.png);
     cursor: pointer;
