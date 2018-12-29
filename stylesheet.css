@@ -260,6 +260,9 @@ button:hover {
 
 }
 
+
+
+
 #roedeprik3 {
     position: absolute;
     width: 10vw;
@@ -275,6 +278,24 @@ button:hover {
     background-image: url(android-icon-192x192.png);
 }
 
+ /*<div class="container">
+  <img src="grafik/roedeprik.png" alt="rødprik" class="image" style="width:25%">
+  <div class="middle">
+    <div class="text"><img src="android-icon-192x192.png"></div>
+  </div>
+</div>*/
+
+#roedeprik5 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(grafik/roedeprik.png);
+    background-size: 100%;
+    left: 2vw;
+    top: 14vw;
+    cursor: pointer;
+
+}
 a:link{
     color:white;
 }
@@ -1044,12 +1065,12 @@ header nav a {
     position: absolute;
     width: 12vw;
     height: 8vw;
-    left: 84vw;
+    left: 80vw;
     top: 0;
     background-image: url(grafik/menu.png);
     cursor: pointer;
     background-size: 100%;
-    z-index: ;
+    z-index:3 ;
 
 }
 
@@ -1095,7 +1116,56 @@ header nav a {
         transform: scale(1);
     }
 }
+.dropbtn {
+  background-color: white;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+    align-content: right;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/*vær opmærksom på at prikken stadig er der - den er hvid*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+
+       left: 84vw;
+    bottom: 5vw;
+  z-index: 3;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 4px 4px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+#kontakt {
+    position: absolute;
+    width: 12vw;
+    height: 10vw;
+    left: 80vw;
+    bottom: 15vw;
+    background-image: url(grafik/kontakt.png);
+    cursor: pointer;
+    background-size: 100%;
+    z-index:3 ;
+
+}
 
 
 
