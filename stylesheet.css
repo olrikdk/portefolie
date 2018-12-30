@@ -86,6 +86,9 @@ body {
     align-items: center;
 
 }
+.txt {
+    display:flex;
+}
 
 .top {
     flex-wrap: wrap;
@@ -191,6 +194,29 @@ button:hover {
     background-image: url(grafik/webgr.png);
     background-size: 100%;
     left: 32vw;
+    top: 2vw;
+    cursor: pointer;
+
+}
+#stilartgraa
+{
+     position: absolute;
+    width: 25vw;
+    height: 6vw;
+    background-image: url(grafik/stilartgraa.png);
+    background-size: 100%;
+    left: 30vw;
+    top: 2vw;
+    cursor: pointer;
+
+}
+#dadaism{
+     position: absolute;
+    width: 25vw;
+    height: 6vw;
+    background-image: url(grafik/dadaism.png);
+    background-size: 100%;
+    left: 52vw;
     top: 2vw;
     cursor: pointer;
 
@@ -1134,10 +1160,10 @@ header nav a {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 200px;
+  min-width: 220px;
 
-       left: 84vw;
-    bottom: 5vw;
+       left: 54vw;
+    bottom: 10vw;
   z-index: 3;
 }
 
