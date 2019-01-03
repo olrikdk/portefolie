@@ -16,57 +16,62 @@
     <meta name="msapplication-TileColor" content="black">
     <meta name="msapplication-config" content="fav_ikoner/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <title>Stilartsite_v2
+    <title>indexsiden
     </title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <header>
         <nav>
-             <a href="side1.html">   <div id="menu"></div></a>
+            <a href="side1.html">
+                <div id="menu" class="pulse"></div>
+            </a>
 
         </nav>
     </header>
-        <div id="screen">
+    <div class="Sectionwrapper">
 
-        <div id="game">
-            <div id="game_background">
+        <picture>
+            <source media="(min-width: 1024px) and (orientation:landscape)" srcset="grafik/frontrentweb.jpg" alt="desktop">
+            <source media="(min-width: 500px) and (orientation:landscape)" srcset="grafik/frontipad.jpg" alt="ipad">
+            <img src="grafik/frontiphone.jpg" alt="mobilportrait">
+        </picture>
 
-            </div></div></div>
+
+        <a href="ommig.html">
+            <div id="roedeprik2"></div>
+        </a>
 
 
-    <section id="splash">
-       <div id="forside">
-           <div id="start" class="hide">
-
-           <div id="skilt1"> </div>
-            <div id="skilt2"> </div>
-             <div id="skilt3"> </div>
-              <div id="skilt4"> </div>
-               <div id="skilt5"> </div>
-                <div id="skilt6"> </div>
-                 <div id="skilt7"> </div>
-                 <div id="skilt8"> </div>
-                  <div id="skilt9"> </div>
-                   <div id="skilt10"> </div>
-                   <div id="skilt11"> </div>
-
-            <div id="menu" class="pulse"></div>
-
+        <div class="dropdown">
+            <button class="dropbtn">
+                <div id="kontakt"></div>
+            </button>
+            <div class="dropdown-content">
+                <h2>Cecilie Olrik</h2>
+                <p>
+                    Rosenvængets Sidealle 8<br>
+                    2100 København Ø<br>
+                    olrikdk@yahoo.com<br>
+                    U+260E
+                    ☎ <strong>004560627412</strong></p>
             </div>
+        </div>
 
 
-       </div>
 
-    </section>
-<div id="startskilt"></div>
+    </div>
+
+
+
+    <div id="startskilt"></div>
 
     <footer><a href="http://cecilieolrik.com">Cecilieolrik.com</a>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 window.addEventListener("load", sidenVises);
 
-function sidenVises() {
+/*function sidenVises() {
     console.log("siden vises");
 
     showStart();
@@ -39,4 +39,4 @@ function startSide1() {
 
 
 
-$("#test p").delay(1000).animate({"opacity": "1"}, 700);
+$("#test p").delay(1000).animate({"opacity": "1"}, 700);*/
