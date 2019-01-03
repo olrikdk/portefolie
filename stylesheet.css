@@ -71,8 +71,19 @@ body {
 
 
 }
+.txt1 {
+    flex-grow: 1;
+    flex-basis: 100px;
+    border: 1px solid #817878;
+    justify-content: space-between;
+    padding: 2px #817878;
 
-.minknap
+    background-color: #817878;
+
+
+}
+
+
 
 
 
@@ -358,15 +369,46 @@ button:hover {
   padding: 16px 32px;
 }
 
+.minknap {
+ display: flex;
+  flex-direction:row;
+}
+#knapapp{   position: absolute;
+    width: 25vw;
+    height: 30.5vw;
+    background-image: url(grafik/minknapapp.png);
+    background-size: 100%;
+    left: 10vw;
+    top: 22vw;
+    cursor: pointer;}
+#gruppeapp{   position: absolute;
+  width: 25vw;
+    height: 30.5vw;
+    background-image: url(grafik/minknapgruppegraa.png);
+    background-size: 100%;
+    left: 38vw;
+    top: 22vw;
+    cursor: pointer;}
+#finalapp{   position: absolute;
+  width: 25vw;
+    height: 30.5vw;
+    background-image: url(grafik/minknapfinalfgraa.png);
+    background-size: 100%;
+    left: 70vw;
+    top: 22vw;
+    cursor: pointer;}
+    <img src="grafik/minknapapp.png">
+            <img src="grafik/minknapgruppegraa.png">
+            <img src="grafik/minknapfinalfgraa.png">
 
 #roedeprik {
     position: absolute;
-    width: 10vw;
-    height: 10vw;
+    width: 8vw;
+    height: 8vw;
     background-image: url(grafik/roedeprik.png);
     background-size: 100%;
-    left: 43vw;
-    top: 10vw;
+    left: 3vw;
+    top: 1vw;
     cursor: pointer;
 
 }
@@ -1303,6 +1345,84 @@ header nav a {
     z-index:3 ;
 
 }
+#kontakt1 {
+    position: absolute;
+    width: 12vw;
+    height: 10vw;
+    left: 82vw;
+    bottom: 2.4vw;
+    background-image: url(grafik/kontakt.png);
+    cursor: pointer;
+    background-size: 100%;
+    z-index:3 ;
+
+}
+#kontakt2 {
+    position: absolute;
+    width: 12vw;
+    height: 10vw;
+    left: 80vw;
+    bottom: 15vw;
+    background-image: url(grafik/kontakt.png);
+    cursor: pointer;
+    background-size: 100%;
+    z-index:3 ;
+
+}
+
+.layouts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 1px;
+}
+
+
+
+.layout1 {
+    align-self: baseline;
+    padding: 2px;
+    height: 216px;
+    width: 384px;
+
+}
+
+
+.layout2 {
+    align-self: baseline;
+    padding: 2px;
+    height: 154px;
+    width: 205px;
+
+
+}
+
+.layout3 {
+    align-self: baseline;
+
+    padding: 2px;
+    height: 205px;
+    width: 154px;
+
+
+}
+
+.layout4 {
+    align-self: baseline;
+    padding: 2px;
+    height: 94px;
+    width: 157px;
+
+}
+
+.layout5 {
+    align-self: baseline;
+    padding: 2px;
+    height: 157px;
+    width: 94px;
+
+}
+
 
 
 
