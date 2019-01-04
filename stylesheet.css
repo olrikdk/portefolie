@@ -280,6 +280,29 @@ button:hover {
     cursor: pointer;
 
 }
+#fronterhv{
+     position: absolute;
+    width: 22vw;
+    height: 6vw;
+    background-image: url(grafik/fronterhv.png);
+    background-size: 100%;
+    left: 52vw;
+    top: 0.4vw;
+    cursor: pointer;
+
+}
+#redesigngr{
+     position: absolute;
+    width: 24vw;
+    height: 6vw;
+    background-image: url(grafik/redesigngr.png);
+    background-size: 100%;
+    left: 26vw;
+    top: 2vw;
+    cursor: pointer;
+    z-index: 3;
+
+}
 #contentgraa{
      position: absolute;
     width: 50vw;
@@ -375,27 +398,27 @@ button:hover {
 }
 #knapapp{   position: absolute;
     width: 25vw;
-    height: 30.5vw;
-    background-image: url(grafik/minknapapp.png);
+    height: 29vw;
+    background-image: url(grafik/appknap.png);
     background-size: 100%;
     left: 10vw;
-    top: 22vw;
+    top: 7vw;
     cursor: pointer;}
 #gruppeapp{   position: absolute;
   width: 25vw;
-    height: 30.5vw;
-    background-image: url(grafik/minknapgruppegraa.png);
+    height: 29vw;
+    background-image: url(grafik/appgruppe.png);
     background-size: 100%;
     left: 38vw;
-    top: 22vw;
+    top: 7vw;
     cursor: pointer;}
 #finalapp{   position: absolute;
   width: 25vw;
-    height: 30.5vw;
-    background-image: url(grafik/minknapfinalfgraa.png);
+    height: 29vw;
+    background-image: url(grafik/appfinal.png);
     background-size: 100%;
     left: 70vw;
-    top: 22vw;
+    top: 7vw;
     cursor: pointer;}
     <img src="grafik/minknapapp.png">
             <img src="grafik/minknapgruppegraa.png">
