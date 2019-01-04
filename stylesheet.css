@@ -162,6 +162,13 @@ body {
 
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 
 
@@ -182,6 +189,8 @@ button {
 button:hover {
     background-color: green;
 }
+
+
 
 
 #redsignhvid {
@@ -506,6 +515,17 @@ button:hover {
     background-size: 100%;
     left: 12vw;
     top: 3vw;
+    cursor: pointer;
+
+}
+#roedeprik9 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(grafik/cvkugle.png);
+    background-size: 100%;
+    left: 62vw;
+    top: 113vw;
     cursor: pointer;
 
 }
