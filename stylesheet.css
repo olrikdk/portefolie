@@ -62,7 +62,7 @@ body {
     flex-basis: 300px;
     border: 1px solid #817878;
     justify-content: space-between;
-    padding: 2px;
+    padding: 22px;
     background-color: #817878;
 
 
@@ -506,6 +506,31 @@ button:hover {
     cursor: pointer;
 
 }
+#roedeprik6 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(grafik/roedeprik.png);
+    background-size: 100%;
+    left: 1vw;
+    top: -3vw;
+    cursor: pointer;
+
+}
+.prik{
+    position: absolute;
+    cursor: crosshair;
+}
+.roedeprik6_sprite{
+    width:10vw;
+        height:10vw;
+    background-image: url(grafik/roedeprik.png);
+    background-size: 100%;
+}
+#roedeprik6{
+
+}
+
 
 #roedeprik8 {
     position: absolute;
@@ -675,615 +700,7 @@ header nav a {
 
 
 
-/*#skilt1 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt1.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0.65vw;
-    cursor: pointer;
 
-
-}
-
-#skilt1 {
-    animation-name: skilt_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt_move {
-    0% {
-        left: -120vw;
-        bottom: 15vw;
-
-    }
-
-    20% {
-        left: -100vw;
-        bottom: 20vw;
-        transform: rotate(-24deg);
-    }
-
-    40% {
-        left: -70vw;
-        bottom: 10vw;
-        transform: rotate(-12deg);
-    }
-
-    60% {
-        left: -30vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-
-    }
-
-}
-
-#skilt2 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt2.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt2 {
-    animation-name: skilt2_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt2_move {
-    0% {
-        left: -120vw;
-        top: 35vw;
-
-    }
-
-    20% {
-        left: -100vw;
-        bottom: 20vw;
-        transform: rotate(14deg);
-    }
-
-    40% {
-        left: -70vw;
-        bottom: 10vw;
-        transform: rotate(12deg);
-    }
-
-    60% {
-        left: -30vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-    }
-
-}
-
-
-#skilt3 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt3.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 1vw;
-    cursor: pointer;
-
-
-}
-
-#skilt3 {
-    animation-name: skilt3_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt3_move {
-    0% {
-        left: 10vw;
-        top: 65vw;
-
-    }
-
-    20% {
-        left: 20vw;
-        bottom: 55vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 10vw;
-        bottom: 40vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 5vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-    }
-
-}
-
-#skilt4 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt4.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt4 {
-    animation-name: skilt4_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt4_move {
-    0% {
-        left: 10vw;
-        top: 65vw;
-
-    }
-
-    20% {
-        left: 20vw;
-        bottom: 55vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 10vw;
-        bottom: 40vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 5vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-    }
-
-}
-
-#skilt5 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt5.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt5 {
-    animation-name: skilt5_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt5_move {
-    0% {
-        left: 10vw;
-        top: 65vw;
-
-    }
-
-    20% {
-        left: 20vw;
-        bottom: 55vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 10vw;
-        bottom: 40vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 5vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-    }
-
-}
-
-#skilt6 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt6.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt6 {
-    animation-name: skilt6_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt6_move {
-    0% {
-        left: 10vw;
-        top: 65vw;
-
-    }
-
-    20% {
-        left: 20vw;
-        bottom: 55vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 10vw;
-        bottom: 40vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 5vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-    }
-
-}
-
-#skilt7 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt7.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt7 {
-    animation-name: skilt7_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt7_move {
-    0% {
-        left: 10vw;
-        top: 65vw;
-
-    }
-
-    20% {
-        left: 20vw;
-        bottom: 55vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 10vw;
-        bottom: 40vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 5vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-    }
-
-}
-
-#skilt8 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt8.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt8 {
-    animation-name: skilt8_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt8_move {
-    0% {
-        left: 10vw;
-        top: 65vw;
-
-    }
-
-    20% {
-        left: 20vw;
-        bottom: 55vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 10vw;
-        bottom: 40vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 5vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-
-    }
-
-}
-
-#skilt9 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt9.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt9 {
-    animation-name: skilt9_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt9_move {
-    0% {
-        left: 10vw;
-        top: 65vw;
-
-    }
-
-    20% {
-        left: 20vw;
-        bottom: 55vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 10vw;
-        bottom: 40vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 5vw;
-        bottom: 0vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-        background-image: url(grafik/skilt.png);
-
-    }
-
-}
-
-#skilt10 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt10.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt10 {
-    animation-name: skilt10_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt10_move {
-    0% {
-        left: 50vw;
-        top: -10vw;
-
-    }
-
-    20% {
-        left: 40vw;
-        bottom: -5vw;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 35vw;
-        bottom: 0vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 20vw;
-        bottom: 10vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-        background-image: url(grafik/skilt.png);
-
-    }
-
-}
-
-#skilt11 {
-    position: absolute;
-    width: 100vw;
-    height: 56vw;
-    background-image: url(grafik/skilt11.png);
-    background-size: 100%;
-    left: 0vw;
-    top: 0vw;
-    cursor: pointer;
-
-
-}
-
-#skilt11 {
-    animation-name: skilt11_move;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    transform-origin: top;
-    animation-iteration-count: 1;
-
-}
-
-@keyframes skilt11_move {
-    0% {
-        left:40vw;
-        top: 95vw;
-
-    }
-
-    20% {
-        left: 30vw;
-        bottom: 80;
-        transform: rotate(10deg);
-    }
-
-    40% {
-        left: 22vw;
-        bottom: 50vw;
-        transform: rotate(5deg);
-    }
-
-    60% {
-        left: 15vw;
-        bottom: 30vw;
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        left: 0vw;
-        bottom: 0vw;
-        background-image: url(grafik/skilt.png);
-
-    }
-
-}*/
 
 #skilt {
     position: absolute;
@@ -1496,6 +913,149 @@ header nav a {
     display: none;
 
 }
+
+
+
+.falling {
+  animation-name: falling_kf;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  /* sikr at vi altid er uden for skærmen, hvis animationen er delayet */
+  top: -10vw;
+}
+
+@keyframes falling_kf  {0% {
+      left: 12vw;
+    top: 3vw;
+    }
+
+    75% {
+             left: 12vw;
+    top: 3vw;
+    }
+    80% {
+        left: 35vw;
+        top: 10vw;
+        transform: rotate(5deg);
+    }
+    85% {
+        left: 95vw;
+        top: 50vw;
+        transform: rotate(5deg);
+    }
+
+    90% {
+        left: 35vw;
+        bottom: 20vw;
+        transform: rotate(5deg);
+    }
+
+    95% {
+        left: 20vw;
+        bottom: 10vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+      left: 12vw;
+    top: 3vw;
+
+
+    }
+
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.shake {
+  width: 100vw;
+  height: 56.25vw;
+
+  animation-name: shake_kf;
+  animation-duration: 6s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes shake_kf {
+  0% {
+    background-color: transparent;
+    transform: rotate(0) scale(1);
+  }
+
+  80% {
+     background-color: #eac1b2;
+    transform: rotate(-1deg) scale(1.1);
+  }
+
+  90% {
+    background-color: rgba(255, 0, 0, 0.7);
+    transform: rotate(2deg) scale(1.1);
+  }
+
+  100% {
+    background-color: transparent;
+    transform: rotate(-10deg) scale(1.1);
+  }
+}
+.paused {
+  animation-play-state: paused;
+}
+.dissappear {
+  animation-name: dissappear_kf;
+  animation-duration: .7s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.59,-0.56,.77,1.34);
+  animation-fill-mode: forwards;
+}
+
+@keyframes dissappear_kf {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+
+
+.explode {
+  animation-name: explode_kf;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+@keyframes explode_kf {
+  from {
+    transform: translate(-55vw,-55vw) scale(.1) rotate(0);
+  }
+  to {
+    transform: translate(-55vw,-55vw) scale(3) rotate(-30deg);
+  }
+}
+
+
+
+
 img {
     width: 100%;
 }
