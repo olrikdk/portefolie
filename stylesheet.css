@@ -6,10 +6,10 @@ body {
 
 
 }
-
 * {
     box-sizing: content-box;
 }
+
 
 #game {
     position: absolute;
@@ -341,10 +341,6 @@ button:hover {
   }
 }
 
-
-   <div class="omgraa"></div>
-        <div class="cecihv"></div>
-
 #redesigngr {
     position: absolute;
     width: 24vw;
@@ -492,14 +488,15 @@ button:hover {
     padding: 16px 32px;
 }
 
-.minknap {
+#minknap {
     display: flex;
     flex-direction: row;
 }
 
 
 @media screen and (max-width: 500px) {
-  .minknap {
+  #minknap {
+      flex:100%;
       flex-direction: column;
 
   }
@@ -1201,7 +1198,53 @@ header nav a {
   }
 }
 
-* {box-sizing:border-box}
+#weirdme{ position: absolute;
+    width: 10vw;
+    height: 18vw;
+    background-image: url(pics/weirdo1.png);
+    background-size: 100%;
+    left: 20vw;
+    top: 20vw;
+    cursor: pointer;
+    opacity: 0.3;
+
+}
+
+.dissolve {
+    animation-name: dissolve_kf;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes dissolve_kf {
+    0% {
+        background-image: url(pics/weirdo1.png);
+        opacity: 0.3;
+    }
+     25% {
+        background-image: url(pics/weirdo2);
+         opacity: 0.3;
+    }
+     50% {
+        background-image: url(pics/weirdo3.png);
+         opacity: 0.3;
+    }
+     75% {
+        background-image: url(pics/weirdo4.png);
+         opacity: 0.3;
+    }
+
+    100% {
+         0% {
+        background-image: url(pics/weirdo1.png);
+             opacity: 0.3;
+    }
+}*/
+
+
+    *{box-sizing: border-box;}
 
 /* Slideshow container */
 .slideshow-container {

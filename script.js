@@ -7,10 +7,6 @@ document.querySelector("roedeprik6").classList.add("dissapear");
 
 }
 
-
-
-
-
 document.querySelector("menu").classList.add("shake");
 
 
