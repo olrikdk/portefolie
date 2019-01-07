@@ -204,6 +204,13 @@ button:hover {
     cursor: pointer;
 
 }
+@media screen and (max-width: 600px) {
+  #redsignhvid {
+    flex: 100%;
+        background-image: url(grafik/redesigngr.png);
+
+  }
+}
 
 #webgraa {
     position: absolute;
@@ -239,6 +246,13 @@ button:hover {
     top: 2vw;
     cursor: pointer;
 
+}
+@media screen and (max-width: 600px) {
+  #dadaism {
+    flex: 100%;
+        background-image: url(grafik/dadaismgraa.png);
+
+  }
 }
 
 #stilarthv {
@@ -300,6 +314,14 @@ button:hover {
     cursor: pointer;
 
 }
+@media screen and (max-width: 600px) {
+  #fronterhv {
+    flex: 100%;
+        background-image: url(grafik/frontergraa.png);
+
+  }
+}
+
 #spilhv {
     position: absolute;
     width: 22vw;
@@ -307,10 +329,21 @@ button:hover {
     background-image: url(grafik/spilhv.png);
     background-size: 100%;
     left: 45vw;
-    top: 2vw;
+    top: 2.4vw;
     cursor: pointer;
 
 }
+@media screen and (max-width: 600px) {
+  #spilhv {
+    flex: 100%;
+        background-image: url(grafik/spilgr.png);
+
+  }
+}
+
+
+   <div class="omgraa"></div>
+        <div class="cecihv"></div>
 
 #redesigngr {
     position: absolute;
@@ -323,6 +356,36 @@ button:hover {
     cursor: pointer;
     z-index: 3;
 
+}
+#omgraa {
+    position: absolute;
+    width: 10vw;
+    height: 6vw;
+    background-image: url(grafik/omgraa.png);
+    background-size: 100%;
+    left: 38vw;
+    top:5vw;
+    cursor: pointer;
+    z-index: 3;
+
+}
+#cecihv {
+    position: absolute;
+    width: 34vw;
+    height: 6vw;
+    background-image: url(grafik/ceciliehv.png);
+    background-size: 100%;
+    left: 51vw;
+    top: 5vw;
+    cursor: pointer;
+
+}
+@media screen and (max-width: 600px) {
+  #cecihv {
+    flex: 100%;
+        background-image: url(grafik/ceciliegraa.png);
+
+  }
 }
 
 
@@ -434,15 +497,11 @@ button:hover {
     flex-direction: row;
 }
 
-.minknap a{
-    display:flex;
-    flex-direction: column;
-}
 
-@media screen and (max-width: 600px) {
-  .minknap a {
-    float: none;
-    width: 100%;
+@media screen and (max-width: 500px) {
+  .minknap {
+      flex-direction: column;
+
   }
 }
 
