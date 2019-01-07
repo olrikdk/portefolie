@@ -48,10 +48,10 @@ body {
 
 .column {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 280px;
     border: 1px solid white;
     justify-content: space-between;
-    padding: 22px 7px;
+    padding: 2px 17px;
     background-color: white;
 
 
@@ -59,10 +59,10 @@ body {
 
 .txt {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 280px;
     border: 1px solid #817878;
     justify-content: space-between;
-    padding: 22px;
+    padding: 2px 37px 2px 65px;
     background-color: #817878;
 
 
@@ -300,6 +300,17 @@ button:hover {
     cursor: pointer;
 
 }
+#spilhv {
+    position: absolute;
+    width: 22vw;
+    height: 5vw;
+    background-image: url(grafik/spilhv.png);
+    background-size: 100%;
+    left: 45vw;
+    top: 2vw;
+    cursor: pointer;
+
+}
 
 #redesigngr {
     position: absolute;
@@ -313,6 +324,7 @@ button:hover {
     z-index: 3;
 
 }
+
 
 #contentgraa {
     position: absolute;
@@ -345,6 +357,17 @@ button:hover {
     background-image: url(grafik/animationgraa.png);
     background-size: 100%;
     left: 30vw;
+    top: 2vw;
+    cursor: pointer;
+
+}
+#animationgr {
+    position: absolute;
+    width: 28vw;
+    height: 6vw;
+    background-image: url(grafik/animationgraa.png);
+    background-size: 100%;
+    left: 22vw;
     top: 2vw;
     cursor: pointer;
 
@@ -411,6 +434,18 @@ button:hover {
     flex-direction: row;
 }
 
+.minknap a{
+    display:flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .minknap a {
+    float: none;
+    width: 100%;
+  }
+}
+
 #knapapp {
     position: absolute;
     width: 25vw;
@@ -445,6 +480,8 @@ button:hover {
 }
 
 
+
+
 #roedeprik {
     position: absolute;
     width: 8vw;
@@ -459,8 +496,8 @@ button:hover {
 
 #roedeprik2 {
     position: absolute;
-    width: 15vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
     background-image: url(android-icon-192x192.png);
     background-size: 100%;
     left: 10vw;
@@ -842,18 +879,18 @@ header nav a {
 
 }
 
-#kontakt2 {
+/*#kontakt2 {
     position: absolute;
     width: 12vw;
     height: 10vw;
-    left: 80vw;
-    bottom: 15vw;
+    left: 82vw;
+   top:40vw;
     background-image: url(grafik/kontakt.png);
     cursor: pointer;
     background-size: 100%;
     z-index: 3;
 
-}
+}*/
 
 .layouts {
     display: flex;
@@ -941,7 +978,7 @@ header nav a {
         transform: rotate(5deg);
     }
     85% {
-        left: 95vw;
+        left: 85vw;
         top: 50vw;
         transform: rotate(5deg);
     }
@@ -967,6 +1004,58 @@ header nav a {
 
 }
 
+.bounce {
+  animation-name: bounce_kf;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  /* sikr at vi altid er uden for skærmen, hvis animationen er delayet */
+  top: -10vw;
+}
+
+@keyframes bounce_kf  {0% {
+      left: 43vw;
+    top: 3vw;
+    }
+    60%{  left: 43vw;
+    top: 3vw;}
+
+    75% {
+             left: 2vw;
+    top: 23vw;
+    }
+    80% {
+        left: 12vw;
+        top: 13vw;
+        transform: rotate(5deg);
+    }
+    85% {
+        left: 32vw;
+        top: 23vw;
+        transform: rotate(5deg);
+    }
+
+    90% {
+        left: 52vw;
+        bottom: 13vw;
+        transform: rotate(5deg);
+    }
+
+    95% {
+        left: 72vw;
+        bottom: 23vw;
+        transform: rotate(-5deg);
+    }
+
+    100% {
+      left: 82vw;
+    top: 3vw;
+
+
+    }
+
+}
 .pulse {
     animation-name: pulse_kf;
     animation-duration: 1s;
