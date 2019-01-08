@@ -746,6 +746,13 @@ h5 {
     color: black;
 }
 
+h6 {
+    font-style:italic;
+    font-size: 18px;
+    font-family: 'helvetica';
+    color: white;
+}
+
 
 header nav a:link {
     color: black;
