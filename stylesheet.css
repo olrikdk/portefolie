@@ -552,12 +552,12 @@ button:hover {
 
 #roedeprik2 {
     position: absolute;
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     background-image: url(android-icon-192x192.png);
     background-size: 100%;
-    left: 10vw;
-    top: 5vw;
+    left: 18vw;
+    top: 15vw;
     cursor: pointer;
 
 }
@@ -595,7 +595,7 @@ button:hover {
     background-image: url(grafik/roedeprik.png);
     background-size: 100%;
     left: 2vw;
-    top: 14vw;
+    top: 4vw;
     cursor: pointer;
 
 }
@@ -1199,16 +1199,18 @@ header nav a {
 }
 
 #weirdme{ position: absolute;
-    width: 10vw;
-    height: 18vw;
+    width: 15vw;
+    height: 25vw;
     background-image: url(pics/weirdo2.png);
     background-size: 100%;
-    left: 5vw;
-    top: 30vw;
+    left: 4vw;
+    top: 1vw;
     cursor: pointer;
     opacity: 0.3;
+    z-index: 3;
 
 }
+
 
 /*.dissolve {
     animation-name: dissolve_kf;
@@ -1287,7 +1289,7 @@ header nav a {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #747171;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
