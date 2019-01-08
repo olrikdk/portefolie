@@ -512,6 +512,17 @@ button:hover {
     top: 7vw;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+ #knapapp{
+    flex: 100%;
+         width: 35vw;
+    height: 41vw;
+      left: 3vw;
+    top: 10vw;
+        background-image: url(grafik/appknap.png);
+
+  }
+}
 
 #gruppeapp {
     position: absolute;
@@ -523,6 +534,17 @@ button:hover {
     top: 7vw;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+  #gruppeapp{
+    flex: 100%;
+        width: 35vw;
+    height: 41vw;
+       left: 30vw;
+    top: 29vw;
+        background-image: url(grafik/appgruppe.png);
+
+  }
+}
 
 #finalapp {
     position: absolute;
@@ -533,6 +555,17 @@ button:hover {
     left: 70vw;
     top: 7vw;
     cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  #finalapp {
+    flex: 100%;
+        width: 35vw;
+    height: 41vw;
+       left: 58vw;
+    top: 47vw;
+        background-image: url(grafik/appfinal.png);
+
+  }
 }
 
 
@@ -819,6 +852,17 @@ header nav a {
     background-size: 100%;
     z-index: 3;
 
+}
+
+@media screen and (max-width: 600px) {
+  #menu {
+    flex: 100%;
+         width: 22vw;
+    height: 14vw;
+       left: 70vw;
+        background-image: url(grafik/menu.png);
+
+  }
 }
 
 .pulse {
@@ -1317,7 +1361,7 @@ header nav a {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-    left:
+
 
 }
 
